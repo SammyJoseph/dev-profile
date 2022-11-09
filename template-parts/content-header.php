@@ -7,7 +7,7 @@
 
     <div class="profile">
       <?php the_custom_logo(); ?>
-      <h1 class="text-light"><a href="<?php echo home_url(); ?>">Sam</a></h1>
+      <h1 class="text-light"><a href="<?php echo home_url(); ?>">Amelie</a></h1>
       <!-- <div class="social-links mt-3 text-center">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
