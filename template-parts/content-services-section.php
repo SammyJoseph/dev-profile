@@ -3,40 +3,40 @@
     <div class="container">
 
     <div class="section-title">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2>Servicios</h2>
+        <p>Los servicios web que ofrezco con más frecuencia a clientes.</p>
     </div>
 
     <div class="row">
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-        <div class="icon"><i class="bi bi-briefcase"></i></div>
-        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        <div class="icon"><i class="bi bi-wordpress"></i></div>
+        <h4 class="title"><a href="">WordPress con Divi</a></h4>
+        <p class="description">Desde landing pages hasta sitios web completos para capturar leads con herramientas automáticas de email como MailChimp.</p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-        <div class="icon"><i class="bi bi-card-checklist"></i></div>
-        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+        <div class="icon"><i class="bi bi-cart-check"></i></div>
+        <h4 class="title"><a href="">Tiendas Online</a></h4>
+        <p class="description">Implementación de catálogo en WooCommerce con diferentes paserlas de pago en Paypal, Culqi, MercadoPago, WhatsApp.</p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
         <div class="icon"><i class="bi bi-bar-chart"></i></div>
-        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        <h4 class="title"><a href="">Admin. Social Media</a></h4>
+        <p class="description">Publicaciones de contenido para conseguir tráfico orgánico según la categoría del negocio. Herramientas como Canvas, Photoshop.</p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
         <div class="icon"><i class="bi bi-binoculars"></i></div>
-        <h4 class="title"><a href="">Magni Dolores</a></h4>
-        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <h4 class="title"><a href="">Optimización SEO</a></h4>
+        <p class="description">Configuración de Search Console, Analytics y otras herramientas que ayudan al posicionamiento en motores de búsqueda.</p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-        <div class="icon"><i class="bi bi-brightness-high"></i></div>
-        <h4 class="title"><a href="">Nemo Enim</a></h4>
-        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+        <div class="icon"><i class="bi bi-shop-window"></i></div>
+        <h4 class="title"><a href="">Facebook Ads</a></h4>
+        <p class="description">Campañas de anuncio en Facebook e Instagram Ads orientado al público objetivo y orientado a ventas.</p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-        <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+        <div class="icon"><i class="bi bi-pie-chart"></i></div>
+        <h4 class="title"><a href="">Google Analytics</a></h4>
+        <p class="description">Administración de las métricas web para futuras optimizaciones y toma de decisiones en SEM de Google Ads.</p>
         </div>
     </div>
 
