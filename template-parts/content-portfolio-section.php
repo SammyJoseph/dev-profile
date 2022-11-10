@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Portafolio</h2>
-        <p>Proyectos recientes según categoría.</p>
+        <p>Proyectos recientes que puedes filtrar según su categoría.</p>
     </div>
 
     <div class="row" data-aos="fade-up">
