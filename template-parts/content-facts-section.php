@@ -3,8 +3,10 @@
     <div class="container">
 
     <div class="section-title">
-        <h2>Facts</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2>Números</h2>
+        <p>En el año 2015 empecé a estudiar la carrera de Computación e Informática en Cibertec y, desde entonces, ofrecí servicios web a empresas naturales y jurídicas.</p>
+        <p>Trabajo con WordPress desde el 2019 por todos las ventajas que ofrece un CMS tanto para el cliente final como para el desarrollador.</p>
+        <p>Actualmente me capacito para desarrollar temas y plugins personalizados.</p>
     </div>
 
     <div class="row no-gutters">
@@ -12,16 +14,16 @@
         <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
         <div class="count-box">
             <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Happy Clients</strong> consequuntur quae</p>
+            <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter"></span>
+            <p><strong>Clientes</strong> recurrentes</p>
         </div>
         </div>
 
         <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
         <div class="count-box">
             <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+            <p><strong>Proyectos</strong> web</p>
         </div>
         </div>
 
