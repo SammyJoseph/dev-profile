@@ -10,6 +10,7 @@ function pw_assets(){
     wp_register_style("swiper-css", get_template_directory_uri().'/assets/vendor/swiper/swiper-bundle.min.css"');
     
     // registros de scripts
+    wp_register_script("jquery-js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js", array(), false, 'all');
     wp_register_script("vanilla-js", get_template_directory_uri()."/assets/vendor/purecounter/purecounter_vanilla.js");
     wp_register_script("aos-js", get_template_directory_uri()."/assets/vendor/aos/aos.js");
     wp_register_script("bootstrap-js", get_template_directory_uri()."/assets/vendor/bootstrap/js/bootstrap.bundle.min.js");
@@ -33,6 +34,7 @@ function pw_assets(){
 
     // agregar los scripts en cola del ciclo de vida de Wordpress
     wp_enqueue_script("scripts-pw", get_template_directory_uri()."/assets/js/main.js", array(
+        "jquery-js",
         "vanilla-js",
         "aos-js",
         "bootstrap-js",
