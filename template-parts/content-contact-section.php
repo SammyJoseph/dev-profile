@@ -57,13 +57,13 @@
 					</div>
 					<div class="my-3">
 					<div class="loading">Cargando...</div>
-					<div class="error-message"></div>
-					<div class="sent-message">Gracias por comunicarte conmigo. Te responderé a la brevedad.</div>
+					<div id="error-message" class="error-message">Hubo un error al intentar enviar el mensaje. Puedes escribirme directamente a sam@peruweb.site</div>
+					<div id="success-message" class="sent-message">Gracias por comunicarte conmigo. Te responderé a la brevedad.</div>
 					</div>
-					<div class="text-center"><button type="submit" name="submit" onClick="sendContact();">Enviar Mensaje</button></div>
+					<div class="text-center"><button id="btn-send-message" type="submit" name="submit" onClick="sendContact();">Enviar Mensaje</button></div>
 				</form>
 			</div>
-			<script>
+			<script> /* prevenir la recarga de página al hacer submit */
 				function prevDef(){
 					return false;
 				}
@@ -72,11 +72,12 @@
     </div>
 </section><!-- End Contact Section -->
 
+<!-- Contact Form with Ajax -->
 <script>
 	function sendContact() {
 		var valid;	
 		valid = validateContact();
-		console.log(valid);
+		// console.log(valid);
 		if(valid) {
 			jQuery.ajax({
 				url: "<?php echo get_template_directory_uri(); ?>/assets/forms/contact_mail.php",
@@ -90,39 +91,14 @@
 		}
 	}
 
+	// Don't proceed if empty fields
 	function validateContact() {
 		var valid = true;
 		
 		if(!$('#userName').val() || !$('#userEmail').val() || !$('#subject').val() || !$('#message').val()){
             valid = false;
         }
-		
-		/* if(!$("#userName").val()) {
-			$("#userName-info").html("(required)");
-			$("#userName").css('background-color','#FFFFDF');
-			valid = false;
-		}
-		if(!$("#userEmail").val()) {
-			$("#userEmail-info").html("(required)");
-			$("#userEmail").css('background-color','#FFFFDF');
-			valid = false;
-		}
-		if(!$("#userEmail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
-			$("#userEmail-info").html("(invalid)");
-			$("#userEmail").css('background-color','#FFFFDF');
-			valid = false;
-		}
-		if(!$("#subject").val()) {
-			$("#subject-info").html("(required)");
-			$("#subject").css('background-color','#FFFFDF');
-			valid = false;
-		}
-		if(!$("#content").val()) {
-			$("#content-info").html("(required)");
-			$("#content").css('background-color','#FFFFDF');
-			valid = false;
-		} */
-		
 		return valid;
 	}
 </script>
+<!-- End Contact Form with Ajax -->
