@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Contáctame</h2>
-        <p>Entremos en contacto y responderé con gusto tus consultas y proformas para gran proyecto web.</p>
+        <p>Entremos en comunicación y responderé con gusto tus consultas y proformas para gran proyecto web.</p>
     </div>
 
     <div class="row" data-aos="fade-in">
@@ -13,7 +13,7 @@
         <div class="info">
             <div class="address">
             <i class="bi bi-geo-alt"></i>
-            <h4>Home Office:</h4>
+            <h4>Desde:</h4>
             <p>Lima, Perú</p>
             </div>
 

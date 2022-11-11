@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Testimonios</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Qué dicen algunas de las empresa con las que trabajo.</p>
     </div>
 
     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -14,12 +14,12 @@
             <div class="testimonial-item" data-aos="fade-up">
             <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                Desde la creación de mi sitio web y mi aula virtual, tanto en Hotmart como en mi sitio web, puedo confiarle todas las actualizaciones de mis clases de guitarra.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/riber-ore.jpg" class="testimonial-img" alt="">
+            <h3>Riber Oré</h3>
+            <h4>Concertista de Guitarra Intern.</h4>
             </div>
         </div><!-- End testimonial item -->
 
@@ -27,12 +27,12 @@
             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
             <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Ha sido de gran ayuda las capacitaciones presenciales al personal administrativo y mecánico para los sistemas implementados en la empresa.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/keith-manrique.jpg" class="testimonial-img" alt="">
+            <h3>Keith Manrique</h3>
+            <h4>Transvisa EIRL</h4>
             </div>
         </div><!-- End testimonial item -->
 
@@ -40,12 +40,12 @@
             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
             <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                La presencia digital de mi empresa es importante como carta de presentación a nuevos prospectos. De la misma forma, el correo corporativo es una gran herramienta.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/alejandro-reyes.jpg" class="testimonial-img" alt="">
+            <h3>Alejandro Reyes</h3>
+            <h4>Informática Reyes</h4>
             </div>
         </div><!-- End testimonial item -->
 
@@ -53,12 +53,12 @@
             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
             <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                Es más fácil para mis clientes comprar mis quenas. Cuando estoy de gira puedo mostrarles mi tienda en línea y el panel de administración agiliza mucho el proceso.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/sergio-cuadros.jpg" class="testimonial-img" alt="">
+            <h3>Sergio Cuadros</h3>
+            <h4>Checho Quenas</h4>
             </div>
         </div><!-- End testimonial item -->
 
@@ -66,12 +66,12 @@
             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
             <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                Mi sitio web me ayuda a conseguir nuevos clientes y también a contratar a nuevo personal. Ha sido una herramienta clave para mi empresa de transporte.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/julio-laos.jpg" class="testimonial-img" alt="">
+            <h3>Julio Laos</h3>
+            <h4>TR San Luis</h4>
             </div>
         </div><!-- End testimonial item -->
 
