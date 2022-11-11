@@ -35,25 +35,25 @@
 			</div>
 			
 			<div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-				<div role="form" class="php-email-form" id="frmContact">
+				<form role="form" class="php-email-form" id="frmContact" onsubmit="return prevDef(event)">
 					<div id="mail-status"></div>
 					<div class="row">
 					<div class="form-group col-md-6">
 						<label for="name">Tu Nombre</label>
-						<input type="text" name="userName" class="form-control" id="userName" required value="Sam Tab">
+						<input type="text" name="userName" class="form-control" id="userName" required>
 					</div>
 					<div class="form-group col-md-6">
 						<label for="name">Tu Email</label>
-						<input type="email" class="form-control" name="userEmail" id="userEmail" required value="sam@peruweb.site">
+						<input type="email" class="form-control" name="userEmail" id="userEmail" required>
 					</div>
 					</div>
 					<div class="form-group">
 					<label for="name">Asunto</label>
-					<input type="text" class="form-control" name="subject" id="subject" required value="test">
+					<input type="text" class="form-control" name="subject" id="subject" required>
 					</div>
 					<div class="form-group">
 					<label for="name">Mensaje</label>
-					<textarea class="form-control" name="message" id="message" rows="10" required>Mensaje de prueba</textarea>
+					<textarea class="form-control" name="message" id="message" rows="10" required></textarea>
 					</div>
 					<div class="my-3">
 					<div class="loading">Cargando...</div>
@@ -61,8 +61,13 @@
 					<div class="sent-message">Gracias por comunicarte conmigo. Te responderé a la brevedad.</div>
 					</div>
 					<div class="text-center"><button type="submit" name="submit" onClick="sendContact();">Enviar Mensaje</button></div>
-				</div>
-			</div>	
+				</form>
+			</div>
+			<script>
+				function prevDef(){
+					return false;
+				}
+			</script>
 		</div>
     </div>
 </section><!-- End Contact Section -->
@@ -71,6 +76,7 @@
 	function sendContact() {
 		var valid;	
 		valid = validateContact();
+		console.log(valid);
 		if(valid) {
 			jQuery.ajax({
 				url: "<?php echo get_template_directory_uri(); ?>/assets/forms/contact_mail.php",
@@ -86,6 +92,10 @@
 
 	function validateContact() {
 		var valid = true;
+		
+		if(!$('#userName').val() || !$('#userEmail').val() || !$('#subject').val() || !$('#message').val()){
+            valid = false;
+        }
 		
 		/* if(!$("#userName").val()) {
 			$("#userName-info").html("(required)");
