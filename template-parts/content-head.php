@@ -23,7 +23,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-title" content="dev-profile">
   <meta name="theme-color" content="#333333">
-  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/icono.jpg">
+  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/icono.png">
 
   
     <!-- Template Main CSS File -->
