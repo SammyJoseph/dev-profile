@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Contáctame</h2>
-        <p>Entremos en comunicación y responderé con gusto tus consultas y proformas para gran proyecto web.</p>
+        <p>Entremos en comunicación y responderé con gusto tus consultas y proformas para tu siguiente proyecto web.</p>
     </div>
 
     <div class="row" data-aos="fade-in">
