@@ -19,11 +19,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="dev-profile">
   <link rel="apple-touch-icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/apple-touch-icon.png">
+
   <!-- etiquetas modo app para android -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-title" content="dev-profile">
   <meta name="theme-color" content="#333333">
-  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/icono.png">
+  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/android-icon.png">
 
   
     <!-- Template Main CSS File -->
