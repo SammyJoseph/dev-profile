@@ -5,7 +5,7 @@
     <div class="section-title">
         <h2>Hoja de vida</h2>
         <p>Aunque he tenido diferentes tipos y puestos de trabajo desde hace más de 10 años, aquí solo listo las más relevantes de acuerdo a mi perfil profesional como WordPress Developer.</p>
-        <p>Puedes descargar mi CV desde <a href="https://drive.google.com/uc?export=download&id=1-FAWu8P4kkKvQVZgjqUJf17w-HUtjs_t">este enlace <i class='bx bxs-download'></i></a>.</p>
+        <p>Puedes descargar mi CV desde <a href="https://drive.google.com/uc?export=download&id=1_sqNMEnI_c6CAjAHIipsDddcDq17hjYv">este enlace <i class='bx bxs-download'></i></a>.</p>
     </div>
 
     <div class="row">
