@@ -10,7 +10,8 @@
             <h2>Detalles del Proyecto</h2>
             <ol>
             <li><a href="<?php echo home_url(); ?>">Inicio</a></li>
-            <li><a href="<?php echo home_url('portafolio'); ?>">Portafolio</a></li>
+            <!-- <li><a href="<?php echo home_url('portafolio'); ?>">Portafolio</a></li>-->
+			<li>Portafolio</li>
             <li><?php the_title(); ?></li>
             </ol>
         </div>
